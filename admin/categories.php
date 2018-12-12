@@ -22,7 +22,7 @@
 
                         <?php 
 
-                        # INSERT CATEGORY QUERY
+                        # ADD CATEGORY QUERY EXECUTION FOR FORM BELOW
 
                         insert_categories();
 
@@ -31,9 +31,8 @@
 
 
 
+            <!-- FORM TO ADD CATEGORY -->
                         <form action="" method="post">
-
-                            <!-- FORM TO ADD CATEGORY -->
 
                             <div class="form-group">
                                 <label for="cat_title">Add Category</label>
@@ -46,9 +45,13 @@
                             </div>
                         </form>
 
+
+
+
+                <!--EDIT CATEGORY EXECUTION  -->
+
                         <?php 
 
-                        # UPDATE AND INCLUDE QUERY FOR EDIT 
 
                         if (isset($_GET['edit'])) {
 
@@ -60,9 +63,14 @@
 
                         ?>
 
-
-
                     </div>
+
+
+                    
+                    
+                    <!-- table for category list display -->
+
+
                     <div class="col-xs-6">
                         <table class="table table-bordered table-hover">
                             <thead>
@@ -72,6 +80,8 @@
                                 </tr>
                             </thead>
                             <tbody>
+
+
 
                                 <?php 
 

@@ -26,6 +26,10 @@ function insert_categories()
 
 }
 
+
+
+
+
 function findAllCategories()
 {
 
@@ -35,6 +39,8 @@ function findAllCategories()
 
 
     while ($row = mysqli_fetch_assoc($select_categories)) {
+        # where row is an array
+
         $cat_id = $row['cat_id'];
         $cat_title = $row['cat_title'];
 
