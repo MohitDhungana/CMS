@@ -25,6 +25,29 @@
 
 
 
+    <!-- Login -->
+    <div class="well">
+        <h4>Login</h4>
+        <form action="include/login.php" method="post">
+            <div class="form-group">
+                <input name="username" type="text" placeholder="Enter username" class="form-control">
+            </div>
+            <div class="form-group">
+                <input name="password" type="password" placeholder="Enter password" class="form-control">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" name="login" type="submit">Login
+                    </button>
+                </span>
+            </div>
+        </form>
+
+
+
+        <!-- /.input-group -->
+    </div>
+
+
+
 
 
     <!-- Blog Categories Well -->
@@ -64,7 +87,7 @@
 
 
 
-<?php include "widget.php" ?>
+    <?php include "widget.php" ?>
 
 
 
